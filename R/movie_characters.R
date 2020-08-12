@@ -269,7 +269,8 @@ movie_characters <- c(
                         `-.__.-´         ```---...___...--**´´ |
                                                      `.____..--´
   ",
-  stormtrooper = "
+  stormtrooper =
+  "\n ----- \n%s \n ------ \n    \\\   \n     \\\
 
                              ,ooo888888888888888oooo,
                            o8888YYYYYY77iiiiooo8888888o
