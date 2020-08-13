@@ -1,5 +1,9 @@
 # starwarssay
-A package with ASCII art of Star Wars
+A package with ASCII art of Star Wars  
+
+## Source 
+https://www.asciiart.eu/movies/star-wars 
+http://www.ascii-art.de/ascii/s/starwars.txt
 
 ## Installation
 
