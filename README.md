@@ -19,7 +19,7 @@ devtools::install_github("Erickcufe/starwarssay")
 
 ```
 starwarssay::say("I'm Your Father", by = "darth_vader", what_color = "darkred", by_color = "black")
-starwarssay::say()
+starwarssay::say(by = "stormtrooper_body")
 
  ----- 
 May the force be with you 
