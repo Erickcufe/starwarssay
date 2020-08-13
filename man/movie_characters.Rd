@@ -16,7 +16,7 @@ Named vector of star wars characters
 \details{
 \code{movie_characters} is a named character vector of characters,
 with each element a character string of variable length specifying
-an ASCII animal. Note that some have unicode characters that won't
+an ASCII star wars character. Note that some have unicode characters that won't
 play well on some operating systems.
 }
 \examples{
