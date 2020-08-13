@@ -2,7 +2,7 @@
 #'
 #' @param what (character) What do you want to say?
 #' @param by (character) Select a some character, baby_yoda, R2D2, black_one, at_at_walker,
-#' darth_vader, resistance, at_st_walker, yoda, ackbar, darth_maul, stormtrooper,
+#' darth_vader, resistance, at_st_walker, yoda, ackbar, darth_maul, stormtrooper and stormtrooper_body,
 #' starwars, starwars_2, millenium_falcon.
 #' Alternatively, use "random" to have your message spoken by a random character.
 #' @param what_color (character or crayon function) One or more

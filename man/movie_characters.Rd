@@ -5,7 +5,7 @@
 \alias{movie_characters}
 \title{Star Wars Characters}
 \format{
-An object of class \code{character} of length 14.
+An object of class \code{character} of length 15.
 }
 \usage{
 movie_characters
