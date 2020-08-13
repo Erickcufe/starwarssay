@@ -18,6 +18,7 @@ devtools::install_github("Erickcufe/starwarssay")
 ## Examples
 
 ```                                                                           
+library(starwarssay)
 starwarssay::say("I'm Your Father", by = "darth_vader")  
 
  ----------- 
