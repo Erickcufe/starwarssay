@@ -25,6 +25,7 @@
 #' @examples
 #' say()
 #' say("I'm your father", by = "darth_vader", by_color = "black")
+#'
 #' @export
 say <- function(what="May the force be with you", by="stormtrooper",
                 what_color=NULL, by_color=NULL) {

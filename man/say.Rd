@@ -42,4 +42,5 @@ Messages with star wars characters
 \examples{
 say()
 say("I'm your father", by = "darth_vader", by_color = "black")
+
 }
