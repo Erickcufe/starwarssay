@@ -11,7 +11,7 @@ http://www.ascii-art.de/ascii/s/starwars.txt
 if (!require(devtools)) {
     install.packages("devtools")
 }
-devtools::install_github("Erickcufe/seekerBio")
+devtools::install_github("Erickcufe/starwarssay")
 ```
 
 ## Examples
