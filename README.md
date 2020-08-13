@@ -1,5 +1,5 @@
 # starwarssay
-A package with ASCII art of Star Wars  
+A R package with ASCII art of Star Wars  
 
 ## Source 
 https://www.asciiart.eu/movies/star-wars 
