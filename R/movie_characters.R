@@ -1,3 +1,16 @@
+#' @title Star Wars Characters
+#'
+#' @description Named vector of star wars characters
+#'
+#' @details `movie_characters` is a named character vector of characters,
+#' with each element a character string of variable length specifying
+#' an ASCII animal. Note that some have unicode characters that won't
+#' play well on some operating systems.
+#' @export
+#' @examples
+#' movie_characters['baby_yoda']
+#' movie_characters['R2D2']
+#' movie_characters[['R2D2']]
 movie_characters <- c(
 
   baby_yoda =

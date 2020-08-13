@@ -1,6 +1,5 @@
 get_who <- function(by) {
 
-  # animals <- get_animals()
   by <- match.arg(by, choices = names(movie_characters))
 
   if (by == "random") {
