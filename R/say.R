@@ -1,6 +1,33 @@
-
+#' Messages with star wars characters
+#'
+#' @param what (character) What do you want to say?
+#' @param by (character) Select a some character, baby_yoda, R2D2, black_one, at_at_walker,
+#' darth_vader, resistance, at_st_walker, yoda, ackbar, darth_maul, stormtrooper,
+#' starwars, starwars_2, millenium_falcon.
+#' Alternatively, use "random" to have your message spoken by a random character.
+#' @param what_color (character or crayon function) One or more
+#' \href{https://github.com/r-lib/crayon#256-colors}{\code{crayon}}-suported
+#' text color(s) or
+#' \href{https://github.com/r-lib/crayon#styles}{\code{crayon style function}}
+#' to color `what`. You might try `colors()` or `?rgb` for ideas.
+#' Use "rainbow" for c("red", "orange", "yellow", "green", "blue", "purple").
+#' @param by_color (character or crayon function) One or more
+#' \href{https://github.com/r-lib/crayon#256-colors}{\code{crayon}}-suported
+#' text color(s) or
+#' \href{https://github.com/r-lib/crayon#styles}{\code{crayon style function}}
+#' to color `who`. Use "rainbow" for
+#' `c("red", "orange", "yellow", "green", "blue", "purple")`
+#'
+#' @return
+#' A message with your selected character
+#'
+#'
+#' @examples
+#' say()
+#' say("I'm your father", by = "darth_vader", by_color = "black")
+#' @export
 say <- function(what="May the force be with you", by="stormtrooper",
-                what_color=NULL, by_color=NULL, ...) {
+                what_color=NULL, by_color=NULL) {
 
   if (crayon::has_color() == FALSE && (!is.null(what_color) || !is.null(by_color))) {
     message("Colors cannot be applied in this environment :( Try using a terminal or RStudio.")
